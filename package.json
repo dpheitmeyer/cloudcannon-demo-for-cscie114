@@ -1,0 +1,17 @@
+{
+  "name": "cloudcannon-11ty-demo-for-cscie114",
+  "version": "1.0.0",
+  "description": "Demo of Cloudcannon CMS and Eleventy (11ty).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}
