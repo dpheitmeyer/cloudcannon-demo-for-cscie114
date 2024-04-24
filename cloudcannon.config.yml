@@ -7,6 +7,13 @@ paths:
   uploads: uploads
   includes: _includes
   pages: ''
+inputs:
+  - label: Title
+    key: title
+    input_type: text
+  - label: Description
+    key: description
+    input_type: textarea
 collections_config:
   pages:
     path: content/pages
