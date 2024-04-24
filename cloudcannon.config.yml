@@ -7,4 +7,12 @@ paths:
   uploads: uploads
   includes: _includes
   pages: ''
+collections_config:
+  pages:
+    path: content/pages
+    output: true
+    url: /[slug]/
+    _enabled_editors:
+      - visual
+data_config: {}
 timezone: Etc/UTC
